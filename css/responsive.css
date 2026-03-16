@@ -4,13 +4,29 @@
     flex-direction: column-reverse;
     text-align: center;
   }
-
+   
+  .hero-image {
+    order: 1;
+    margin-bottom: 30px;
+  }
+  
   .hero-description {
     margin: 0 auto 30px;
   }
 
   .hero-buttons {
     justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+    .hero-buttons .btn {
+    width: 200px;
+    text-align: center;
+  }
+  .btn-secondary {
+    margin-left: 0;
   }
 
   .nav-links {
