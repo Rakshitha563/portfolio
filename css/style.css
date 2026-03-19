@@ -246,6 +246,24 @@ body {
   color: #cfcfcf;
   font-size: 0.96rem;
 }
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #7c4dff, #00bcd4);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.skill-card:hover .skill-icon {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 10px 25px rgba(124, 77, 255, 0.4);
+}
 
 /* Projects */
 .projects-grid {
